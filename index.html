@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<h>Welcome to Rock Paper Scissor</h>
-<p>Open Console to play (press F12)</p>
+<h class="title">Welcome to Rock Paper Scissor!<br></h>
 <body>
-    
-    <script src="game.js">
-    </script>
+    <div class="selections">
+        <div class ="first">
+            <img src="https://cdn.pixabay.com/photo/2014/12/22/00/03/rock-576682_1280.png">
+            <button id="Rock" oncli>Click for Rock</button>
+        </div>
+        <div class="second">
+            <img src="https://cdn.pixabay.com/photo/2013/07/13/01/08/stationery-155143_1280.png">
+            <button id="Paper">Click for Paper</button>
+        </div>
+        <div class="third">
+            <img src="https://cdn.pixabay.com/photo/2012/04/10/23/32/scissors-27045_1280.png">
+            <button id="Scissors">Click for Scissors</button>
+        </div>
+    </div>
+    <div class="instructions">Instructions: Choose an item and beat the CPU five times to win.</div>
+    <div id="message"></div>
+    <div id="container"></div>
+    <script src="game.js" defer></script>
     
 </body>
 </html>

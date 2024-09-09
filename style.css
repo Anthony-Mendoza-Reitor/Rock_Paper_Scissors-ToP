@@ -1,0 +1,83 @@
+.title{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+    text-decoration-color: grey;
+}
+body {
+    background-color: bisque;
+    border-color: #1f2937;
+    margin: 0px;
+}
+.instructions{
+    border-style:groove;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 8px;
+    font-style: italic;
+    background-color: rgb(226, 220, 220);
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+button{
+    width: 200px;
+    font-size: 20px;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+}
+img , button{
+    display: flex;
+    margin: 8px;
+}
+.first, .second, .third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.selections{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+.selectItem{
+    border-radius: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style:double;
+}
+.selectionCheader, .selectionHheader, .vs{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Message1{
+    display: flex;
+    font-size: 28px;
+    font-style: oblique;
+    border-color: black;
+    border-width: 1px;
+    border-style:double;
+    border-radius: 3px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
